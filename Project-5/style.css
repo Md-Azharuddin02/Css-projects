@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    width: 100%;
+    display: flex
+}
+.logo{
+    width: 50%;
+
+}
+.logo img{
+    max-width:20%;
+    max-height: 100%;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.nav-section{
+    width: 50%;
+}
+.nav-section ul{
+    float: right;
+    margin-right: 120px;
+    margin-top: 20px;
+}
+.nav-section ul button{
+    background-color: transparent;
+    border: none;
+    font-size:25px;
+}
+/* ---------header section --------- */
+.header-setion{
+    max-width:100%;
+    display: flex;
+    margin: 30px 70px;
+}
+.header-content{
+    width: 50%;
+    padding: 20px;
+}
+.header-content img {
+    max-width: 80%;
+    float: right;
+}
+.header-content div{
+    max-width: 40%;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 60px;
+}
+.header-content h1{
+    color: black;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+.header-content p{
+    margin-top: 30px;
+}
+.header-content button{
+    padding:10px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(238, 182, 0);
+    border: none;
+    margin-top: 60px;
+}
+.dis-food-del{
+    margin: 0 auto;
+    width: 65%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(10px , 1fr));
+    
+}
+.discount{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.discount{
+    display: flex;
+}
+.discount img{
+    max-width: 60px;
+}
+.dis{
+    padding: 10px;
+}
+.hr{
+    color: red;
+    margin: 30px;
+}

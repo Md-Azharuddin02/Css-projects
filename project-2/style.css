@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.box{
+    max-width: 600px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 15px;
+    padding-bottom: 60px;
+    box-shadow: 5px 1px 10px black;
+}
+h1{
+    text-align: center;
+    
+}
+.small{
+    font-size: 15px;
+    color: rgb(67, 67, 163);
+}
+.form-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    padding: 20px;
+    grid-gap: 20px; 
+}
+.form-controler{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+.form-controler input, select {
+    padding: 8px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.btn{
+    width: 100%;
+    position: static;
+    
+
+}
+.btn button{
+    padding: 5px 10px;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 5px;
+    float: right;
+    margin-right: 20px;
+}
+
